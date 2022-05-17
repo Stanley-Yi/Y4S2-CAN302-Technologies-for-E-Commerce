@@ -1,0 +1,774 @@
+.mediaViewInfo {
+	--web-view-name: New post;
+	--web-view-id: New_post;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: New_post;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.New_post_Class {
+	position: absolute;
+	width: 1366px;
+	height: 1111px;
+	background-color: rgba(230,230,230,1);
+	overflow: hidden;
+	--web-view-name: New post;
+	--web-view-id: New_post;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes  {
+
+
+}
+.Top_bar_Class {
+	position: absolute;
+	width: 1366px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Top_bar_r_Class {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 1366px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.n_2_Class {
+	fill: rgba(47,107,94,1);
+}
+.n_2 {
+	filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.302));
+	position: absolute;
+	overflow: visible;
+	width: 1396px;
+	height: 115px;
+	left: 0px;
+	top: 0px;
+}
+.n_3062_Class {
+	position: absolute;
+	width: 1286px;
+	height: 43px;
+	left: 32px;
+	top: 23px;
+	overflow: visible;
+}
+.Navigator_Class {
+	position: absolute;
+	width: 323.433px;
+	height: 38.816px;
+	left: 962.567px;
+	top: 2px;
+	overflow: visible;
+}
+.Messages_Class {
+	left: 0px;
+	top: 5.908px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Message.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Orders_Class {
+	left: 190px;
+	top: 5.908px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Orders.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Cart_Class {
+	left: 120px;
+	top: 5.908px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Cart.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Icon_awesome-user-circle_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-user-circle {
+	overflow: visible;
+	position: absolute;
+	width: 38.816px;
+	height: 38.816px;
+	left: 284.618px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.6000000238418579s ease-out;
+	--web-action-type: page;
+	--web-action-target: Sign_In.html;
+	cursor: pointer;
+}
+.Logo_Class {
+	position: absolute;
+	width: 264px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Logo-Text_Class {
+	position: absolute;
+	width: 264px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.LOZA_Class {
+	left: 52px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	height: 33px;
+	text-align: left;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+}
+.Logo__Class {
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Container_Class {
+	fill: rgba(47,107,94,1);
+}
+.Container {
+	position: absolute;
+	overflow: visible;
+	width: 43px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+}
+.Icon_ionic-md-globe_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_ionic-md-globe {
+	overflow: visible;
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	left: 4px;
+	top: 4.483px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Search_Class {
+	position: absolute;
+	width: 526px;
+	height: 36px;
+	left: 286px;
+	top: 4px;
+	overflow: visible;
+	--web-animation: fadein 0.6000000238418579s ease-out;
+	--web-action-type: page;
+	--web-action-target: Search_Page.html;
+	cursor: pointer;
+}
+.n_2878_Class {
+	fill: rgba(241,241,241,1);
+}
+.n_2878 {
+	overflow: visible;
+	position: absolute;
+	width: 526px;
+	height: 36px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_3065_Class {
+	position: absolute;
+	width: 426.551px;
+	height: 24.128px;
+	left: 17.683px;
+	top: 6px;
+	overflow: visible;
+}
+.Find_Services_Class {
+	left: 36.551px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 391px;
+	height: 24.128271102905273px;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(156,156,156,1);
+}
+.Icon_ionic-ios-search_Class {
+	fill: rgba(156,156,156,1);
+}
+.Icon_ionic-ios-search {
+	overflow: visible;
+	position: absolute;
+	width: 18.24px;
+	height: 18.245px;
+	left: 0px;
+	top: 3px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_38_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_38 {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 1366px;
+	height: 1px;
+	left: -8px;
+	top: 96.465px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.New_post_bb_Class {
+	left: 41px;
+	top: 125px;
+	position: absolute;
+	overflow: visible;
+	width: 180px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(53,78,87,1);
+}
+.n_812_Class {
+	fill: rgba(241,241,241,1);
+	stroke: rgba(156,156,156,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_812 {
+	position: absolute;
+	overflow: visible;
+	width: 860px;
+	height: 45px;
+	left: 113px;
+	top: 264px;
+}
+.n_813_Class {
+	fill: rgba(241,241,241,1);
+	stroke: rgba(156,156,156,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_813 {
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	height: 45px;
+	left: 113px;
+	top: 385px;
+}
+.n_818_Class {
+	fill: rgba(241,241,241,1);
+	stroke: rgba(156,156,156,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_818 {
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	height: 45px;
+	left: 113px;
+	top: 497px;
+}
+.n_814_Class {
+	fill: rgba(241,241,241,1);
+	stroke: rgba(156,156,156,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_814 {
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	height: 45px;
+	left: 573px;
+	top: 385px;
+}
+.n_817_Class {
+	fill: rgba(241,241,241,1);
+	stroke: rgba(156,156,156,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_817 {
+	position: absolute;
+	overflow: visible;
+	width: 400px;
+	height: 45px;
+	left: 573px;
+	top: 497px;
+}
+.n_815_Class {
+	fill: rgba(241,241,241,1);
+	stroke: rgba(156,156,156,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_815 {
+	position: absolute;
+	overflow: visible;
+	width: 859px;
+	height: 140px;
+	left: 113px;
+	top: 609px;
+}
+.n_816_Class {
+	fill: rgba(241,241,241,1);
+	stroke: rgba(156,156,156,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_816 {
+	position: absolute;
+	overflow: visible;
+	width: 859px;
+	height: 45px;
+	left: 114px;
+	top: 810px;
+}
+.I_will_give_you_insights_proof_Class {
+	left: 125px;
+	top: 273px;
+	position: absolute;
+	overflow: visible;
+	width: 837px;
+	height: 27px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(46,46,34,1);
+}
+.China_Class {
+	left: 125px;
+	top: 394px;
+	position: absolute;
+	overflow: visible;
+	width: 373px;
+	height: 27px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(46,46,34,1);
+}
+.Xian_Jiaotong-Liverpool_Univer_Class {
+	left: 125px;
+	top: 506px;
+	position: absolute;
+	overflow: visible;
+	width: 373px;
+	height: 27px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(46,46,34,1);
+}
+.Computer_Science_Class {
+	left: 585px;
+	top: 394px;
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 27px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(46,46,34,1);
+}
+.Personal_Statement_Class {
+	left: 585px;
+	top: 506px;
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 27px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(46,46,34,1);
+}
+.n_5_Class {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 836px;
+	height: 116px;
+	left: 125px;
+	top: 618px;
+	overflow: hidden;
+}
+.I_will_proofread_and_edit_your_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 837px;
+	height: 108px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(46,46,34,1);
+}
+.n_5001_Class {
+	left: 126px;
+	top: 819px;
+	position: absolute;
+	overflow: visible;
+	width: 837px;
+	height: 27px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(46,46,34,1);
+}
+.n_5000_Class {
+	left: 150px;
+	top: 819px;
+	position: absolute;
+	overflow: visible;
+	width: 815px;
+	height: 27px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(46,46,34,1);
+}
+.Title_Class {
+	left: 123px;
+	top: 228px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(46,46,34,1);
+}
+.Contry_Class {
+	left: 123px;
+	top: 349px;
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(46,46,34,1);
+}
+.School_Class {
+	left: 123px;
+	top: 461px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(46,46,34,1);
+}
+.Major_Class {
+	left: 583px;
+	top: 349px;
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(46,46,34,1);
+}
+.Category_Class {
+	left: 583px;
+	top: 461px;
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(46,46,34,1);
+}
+.Description_Class {
+	left: 123px;
+	top: 573px;
+	position: absolute;
+	overflow: visible;
+	width: 120px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(46,46,34,1);
+}
+.Price_Class {
+	left: 124px;
+	top: 774px;
+	position: absolute;
+	overflow: visible;
+	width: 52px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(46,46,34,1);
+}
+.Cover_Image_Class {
+	left: 126px;
+	top: 886px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(46,46,34,1);
+}
+.n_46_Class {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_46 {
+	overflow: visible;
+	position: absolute;
+	width: 1284.006px;
+	height: 8px;
+	left: 41px;
+	top: 199.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_9__15_Class {
+	position: absolute;
+	width: 204px;
+	height: 47px;
+	left: 1047px;
+	top: 1021px;
+	overflow: visible;
+	cursor: pointer;
+}
+.n_738_Class {
+	fill: rgba(47,107,94,1);
+}
+.n_738 {
+	position: absolute;
+	overflow: visible;
+	width: 204px;
+	height: 47px;
+	left: 0px;
+	top: 0px;
+}
+.Post_Class {
+	left: 1px;
+	top: 1px;
+	opacity: 0;
+	position: absolute;
+	overflow: hidden;
+	width: 202px;
+	height: 45px;
+	text-align: center;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(255,255,255,1);
+}
+.Post_Class_1 {
+	left: 82px;
+	top: 16px;
+	position: absolute;
+	overflow: hidden;
+	width: 40px;
+	height: 15px;
+	text-align: center;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(255,255,255,1);
+}
+.n_9__16_Class {
+	position: absolute;
+	width: 204px;
+	height: 47px;
+	left: 114px;
+	top: 926px;
+	overflow: visible;
+	cursor: pointer;
+}
+.n_738_b_Class {
+	fill: rgba(241,241,241,1);
+	stroke: rgba(156,156,156,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_738_b {
+	position: absolute;
+	overflow: visible;
+	width: 204px;
+	height: 47px;
+	left: 0px;
+	top: 0px;
+}
+.Upload_Class {
+	left: 12px;
+	top: 15px;
+	position: absolute;
+	overflow: hidden;
+	width: 181px;
+	height: 30px;
+	text-align: center;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(59,59,59,1);
+}

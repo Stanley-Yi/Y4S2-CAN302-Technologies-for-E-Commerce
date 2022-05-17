@@ -1,0 +1,608 @@
+.mediaViewInfo {
+	--web-view-name: Cart;
+	--web-view-id: Cart;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Cart;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Cart_Class {
+	position: absolute;
+	width: 1366px;
+	height: 768px;
+	background-color: rgba(185,205,201,1);
+	overflow: hidden;
+	--web-view-name: Cart;
+	--web-view-id: Cart;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+/*@keyframes  {*/
+
+
+/*}*/
+.n_3_ue_Class {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 439px;
+	height: 683px;
+	left: 927px;
+	top: 85px;
+	overflow: hidden;
+}
+.Cart_uf_Class {
+	position: absolute;
+	width: 439px;
+	height: 683px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Cart_BG_Class {
+	fill: rgba(231,238,237,1);
+}
+.Cart_BG {
+	position: absolute;
+	overflow: visible;
+	width: 439px;
+	height: 683px;
+	left: 0px;
+	top: 0px;
+}
+.Top_Class {
+	position: absolute;
+	width: 368.444px;
+	height: 23px;
+	left: 40px;
+	top: 37px;
+	overflow: visible;
+}
+.Your_Cart_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: hidden;
+	width: 104px;
+	height: 25px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(53,78,87,1);
+}
+.n__items__Edit_Class {
+	left: 110px;
+	top: 6px;
+	position: absolute;
+	overflow: hidden;
+	width: 135px;
+	height: 17px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(53,78,87,1);
+}
+.Icon_ionic-md-close_Class {
+	fill: rgba(53,78,87,1);
+}
+.Icon_ionic-md-close {
+	overflow: visible;
+	position: absolute;
+	width: 14.444px;
+	height: 14.444px;
+	left: 354px;
+	top: 4.669px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Bottom_Class {
+	position: absolute;
+	width: 354.5px;
+	height: 221px;
+	left: 40px;
+	top: 415px;
+	overflow: visible;
+}
+.Subtotal_Tax_calculated_in_che_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 254px;
+	height: 93px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(53,78,87,1);
+}
+
+.Estimated_Total_Class {
+	left: 0px;
+	top: 129px;
+	position: absolute;
+	overflow: visible;
+	width: 254px;
+	height: 29px;
+	line-height: 30px;
+	margin-top: -5px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(53,78,87,1);
+}
+.n_00_--__Class {
+	left: 253px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 102px;
+	height: 93px;
+	line-height: 30px;
+	margin-top: -7px;
+	text-align: right;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(53,78,87,1);
+}
+.n_00_up_Class {
+	left: 253px;
+	top: 129px;
+	position: absolute;
+	overflow: visible;
+	width: 102px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: -5px;
+	text-align: right;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(53,78,87,1);
+}
+.n_43_Class {
+	fill: transparent;
+	stroke: rgba(53,78,87,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_43 {
+	overflow: visible;
+	position: absolute;
+	width: 354px;
+	height: 1px;
+	left: 0.5px;
+	top: 108.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_3091_Class {
+	position: absolute;
+	width: 354px;
+	height: 50px;
+	left: 0px;
+	top: 171px;
+	overflow: visible;
+}
+.n_803_Class {
+	fill: rgba(47,107,94,1);
+	stroke: rgba(186,202,209,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_803 {
+	position: absolute;
+	overflow: visible;
+	width: 354px;
+	height: 50px;
+	left: 0px;
+	top: 0px;
+}
+.Checkout_Class {
+	left: 146px;
+	top: 15px;
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(255,255,255,1);
+}
+.Item_uu_Class {
+	position: absolute;
+	width: 359px;
+	height: 125px;
+	left: 40px;
+	top: 95px;
+	overflow: visible;
+}
+
+.Item2_uu_Class {
+	position: absolute;
+	width: 359px;
+	height: 125px;
+	left: 40px;
+	top: 95px;
+	overflow: visible;
+}
+.n_738_Class {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(47,107,94,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_738 {
+	position: absolute;
+	overflow: visible;
+	width: 359px;
+	height: 125px;
+	left: 0px;
+	top: 0px;
+}
+.n_1_uw_Class {
+	position: absolute;
+	width: 147px;
+	height: 125px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Francine_Andrews_ux_Class {
+	left: 169px;
+	top: 22px;
+	position: absolute;
+	overflow: visible;
+	width: 118px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(46,46,34,1);
+}
+.I_will_give_you_insights_proof_Class {
+	left: 169px;
+	top: 42px;
+	position: absolute;
+	overflow: visible;
+	width: 169px;
+	height: 48px;
+	line-height: 16px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(46,46,34,1);
+}
+.n_805_Class {
+	fill: transparent;
+	stroke: rgba(47,107,94,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_805 {
+	position: absolute;
+	overflow: visible;
+	width: 359px;
+	height: 125px;
+	left: 0px;
+	top: 0px;
+}
+.n_00_u_Class {
+	left: 292px;
+	top: 93px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	height: 24px;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: right;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+.Top_bar_u_Class {
+	position: absolute;
+	width: 1366px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Top_bar_va_Class {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 1366px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.n_2_u_Class {
+	fill: rgba(47,107,94,1);
+}
+.n_2_u {
+	filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.302));
+	position: absolute;
+	overflow: visible;
+	width: 1396px;
+	height: 115px;
+	left: 0px;
+	top: 0px;
+}
+.n_3062_u_Class {
+	position: absolute;
+	width: 1286px;
+	height: 43px;
+	left: 32px;
+	top: 23px;
+	overflow: visible;
+}
+.Navigator_u_Class {
+	position: absolute;
+	width: 323.433px;
+	height: 38.816px;
+	left: 962.567px;
+	top: 2px;
+	overflow: visible;
+}
+.Messages_u_Class {
+	left: 0px;
+	top: 5.908px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	/*--web-action-target: Message.html;*/
+	cursor: pointer;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Orders_u_Class {
+	left: 190px;
+	top: 5.908px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	/*--web-action-target: Orders.html;*/
+	cursor: pointer;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Cart_u_Class {
+	left: 120px;
+	top: 5.908px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Icon_awesome-user-circle_u_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-user-circle_u {
+	overflow: visible;
+	position: absolute;
+	width: 38.816px;
+	height: 38.816px;
+	left: 284.618px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.6000000238418579s ease-out;
+	--web-action-type: page;
+	/*--web-action-target: Sign_In.html;*/
+	cursor: pointer;
+}
+.Logo_va_Class {
+	position: absolute;
+	width: 264px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Logo-Text_vb_Class {
+	position: absolute;
+	width: 264px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.LOZA_vc_Class {
+	left: 52px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	height: 33px;
+	text-align: left;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+}
+.Logo_vd_Class {
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Container_ve_Class {
+	fill: rgba(47,107,94,1);
+}
+.Container_ve {
+	position: absolute;
+	overflow: visible;
+	width: 43px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+}
+.Icon_ionic-md-globe_vf_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_ionic-md-globe_vf {
+	overflow: visible;
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	left: 4px;
+	top: 4.483px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Search_vg_Class {
+	position: absolute;
+	width: 526px;
+	height: 36px;
+	left: 286px;
+	top: 4px;
+	overflow: visible;
+	--web-animation: fadein 0.6000000238418579s ease-out;
+	--web-action-type: page;
+	/*--web-action-target: Search_Page.html;*/
+	cursor: pointer;
+}
+.n_2878_vh_Class {
+	fill: rgba(241,241,241,1);
+}
+.n_2878_vh {
+	overflow: visible;
+	position: absolute;
+	width: 526px;
+	height: 36px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_3065_vi_Class {
+	position: absolute;
+	width: 426.551px;
+	height: 24.128px;
+	left: 17.682px;
+	top: 6px;
+	overflow: visible;
+}
+.Find_Services_vj_Class {
+	left: 36.551px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 391px;
+	height: 24.128271102905273px;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(156,156,156,1);
+}
+.Icon_ionic-ios-search_vk_Class {
+	fill: rgba(156,156,156,1);
+}
+.Icon_ionic-ios-search_vk {
+	overflow: visible;
+	position: absolute;
+	width: 18.241px;
+	height: 18.245px;
+	left: 0px;
+	top: 3px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_38_vl_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_38_vl {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 1366px;
+	height: 1px;
+	left: -8px;
+	top: 96.465px;
+	transform: matrix(1,0,0,1,0,0);
+}

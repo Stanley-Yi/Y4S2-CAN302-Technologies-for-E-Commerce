@@ -1,0 +1,1342 @@
+.mediaViewInfo {
+	--web-view-name: Message;
+	--web-view-id: Message;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Message;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Message_Class {
+	position: absolute;
+	width: 1366px;
+	height: 768px;
+	background-color: rgba(241,241,241,1);
+	overflow: hidden;
+	--web-view-name: Message;
+	--web-view-id: Message;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes  {
+
+
+}
+.Top_bar_rh_Class {
+	position: absolute;
+	width: 1366px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Top_bar_ri_Class {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 1366px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.n_2_rj_Class {
+	fill: rgba(47,107,94,1);
+}
+.n_2_rj {
+	filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.302));
+	position: absolute;
+	overflow: visible;
+	width: 1396px;
+	height: 115px;
+	left: 0px;
+	top: 0px;
+}
+.n_3062_rk_Class {
+	position: absolute;
+	width: 1286px;
+	height: 43px;
+	left: 32px;
+	top: 23px;
+	overflow: visible;
+}
+.Navigator_rl_Class {
+	position: absolute;
+	width: 323.433px;
+	height: 38.816px;
+	left: 962.567px;
+	top: 2px;
+	overflow: visible;
+}
+.Messages_rm_Class {
+	left: 0px;
+	top: 5.908px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Orders_rn_Class {
+	left: 190px;
+	top: 5.908px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Orders.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Cart_ro_Class {
+	left: 120px;
+	top: 5.908px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Cart.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Icon_awesome-user-circle_rp_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-user-circle_rp {
+	overflow: visible;
+	position: absolute;
+	width: 38.816px;
+	height: 38.816px;
+	left: 284.618px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.6000000238418579s ease-out;
+	--web-action-type: page;
+	--web-action-target: Sign_In.html;
+	cursor: pointer;
+}
+.Logo_rq_Class {
+	position: absolute;
+	width: 264px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Logo-Text_rr_Class {
+	position: absolute;
+	width: 264px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.LOZA_rs_Class {
+	left: 52px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	height: 33px;
+	text-align: left;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+}
+.Logo_rt_Class {
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Container_ru_Class {
+	fill: rgba(47,107,94,1);
+}
+.Container_ru {
+	position: absolute;
+	overflow: visible;
+	width: 43px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+}
+.Icon_ionic-md-globe_rv_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_ionic-md-globe_rv {
+	overflow: visible;
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	left: 4px;
+	top: 4.483px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Search_rw_Class {
+	position: absolute;
+	width: 526px;
+	height: 36px;
+	left: 286px;
+	top: 4px;
+	overflow: visible;
+	--web-animation: fadein 0.6000000238418579s ease-out;
+	--web-action-type: page;
+	--web-action-target: Search_Page.html;
+	cursor: pointer;
+}
+.n_2878_rx_Class {
+	fill: rgba(241,241,241,1);
+}
+.n_2878_rx {
+	overflow: visible;
+	position: absolute;
+	width: 526px;
+	height: 36px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_3065_ry_Class {
+	position: absolute;
+	width: 426.551px;
+	height: 24.128px;
+	left: 17.683px;
+	top: 6px;
+	overflow: visible;
+}
+.Find_Services_rz_Class {
+	left: 36.551px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 391px;
+	height: 24.128271102905273px;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(156,156,156,1);
+}
+.Icon_ionic-ios-search_r_Class {
+	fill: rgba(156,156,156,1);
+}
+.Icon_ionic-ios-search_r {
+	overflow: visible;
+	position: absolute;
+	width: 18.241px;
+	height: 18.245px;
+	left: 0px;
+	top: 3px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_38_r_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_38_r {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 1366px;
+	height: 1px;
+	left: -8px;
+	top: 96.465px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_795_Class {
+	fill: rgba(255,255,255,1);
+}
+.n_795 {
+	filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 1315px;
+	height: 628px;
+	left: 41px;
+	top: 124px;
+}
+.n_1_r_Class {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 332px;
+	height: 598.5px;
+	left: 41px;
+	top: 124px;
+	overflow: hidden;
+}
+.n_3087_Class {
+	position: absolute;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.n_796_Class {
+	fill: rgba(205,211,210,1);
+}
+.n_796 {
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+}
+.n_2_r_Class {
+	position: absolute;
+	width: 73px;
+	height: 73px;
+	left: 39px;
+	top: 19px;
+	overflow: visible;
+}
+.Francine_Andrews_r_Class {
+	left: 142px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	height: 20px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(59,59,59,1);
+}
+.Yes_I_can_Thank_Class {
+	left: 142px;
+	top: 55px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	height: 25px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(59,59,59,1);
+}
+.n_4_r_Class {
+	fill: rgba(51,149,55,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_4_r {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 95px;
+	top: 74px;
+}
+.n_41_Class {
+	fill: transparent;
+	stroke: rgba(219,219,219,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_41 {
+	overflow: visible;
+	position: absolute;
+	width: 332px;
+	height: 2px;
+	left: 0px;
+	top: 110px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_3089_Class {
+	position: absolute;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 110px;
+	overflow: visible;
+}
+.n_796_sc_Class {
+	fill: rgba(237,237,237,1);
+}
+.n_796_sc {
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+}
+.n_2_sd_Class {
+	position: absolute;
+	width: 73px;
+	height: 73px;
+	left: 39px;
+	top: 19px;
+	overflow: visible;
+}
+.Francine_Lucas_Class {
+	left: 142px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	height: 20px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(59,59,59,1);
+}
+.Aliquam_in_bibendum_mauris_Sed_Class {
+	left: 142px;
+	top: 55px;
+	position: absolute;
+	overflow: hidden;
+	width: 141px;
+	height: 25px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(59,59,59,1);
+}
+.n_4_sg_Class {
+	fill: rgba(51,149,55,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_4_sg {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 95px;
+	top: 74px;
+}
+.n_41_sh_Class {
+	fill: transparent;
+	stroke: rgba(219,219,219,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_41_sh {
+	overflow: visible;
+	position: absolute;
+	width: 332px;
+	height: 2px;
+	left: 0px;
+	top: 110px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_3088_Class {
+	position: absolute;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 221px;
+	overflow: visible;
+}
+.n_796_sj_Class {
+	fill: rgba(237,237,237,1);
+}
+.n_796_sj {
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+}
+.n_2_sk_Class {
+	position: absolute;
+	width: 73px;
+	height: 73px;
+	left: 39px;
+	top: 19px;
+	overflow: visible;
+}
+.Philip_Bailey_Class {
+	left: 142px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	height: 20px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(59,59,59,1);
+}
+.Integer_ac_interdum_lacus_Nunc_Class {
+	left: 142px;
+	top: 55px;
+	position: absolute;
+	overflow: hidden;
+	width: 141px;
+	height: 25px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(59,59,59,1);
+}
+.n_4_sn_Class {
+	fill: rgba(156,156,156,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_4_sn {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 95px;
+	top: 74px;
+}
+.n_41_so_Class {
+	fill: transparent;
+	stroke: rgba(219,219,219,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_41_so {
+	overflow: visible;
+	position: absolute;
+	width: 332px;
+	height: 2px;
+	left: 0px;
+	top: 110px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_3088_sp_Class {
+	position: absolute;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 332px;
+	overflow: visible;
+}
+.n_796_sq_Class {
+	fill: rgba(237,237,237,1);
+}
+.n_796_sq {
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+}
+.n_2_sr_Class {
+	position: absolute;
+	width: 73px;
+	height: 73px;
+	left: 39px;
+	top: 19px;
+	overflow: visible;
+}
+.Barbara_Lynch_Class {
+	left: 142px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	height: 20px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(59,59,59,1);
+}
+.Phasellus_dignissim_tellus_in__Class {
+	left: 142px;
+	top: 55px;
+	position: absolute;
+	overflow: hidden;
+	width: 141px;
+	height: 25px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(59,59,59,1);
+}
+.n_4_su_Class {
+	fill: rgba(51,149,55,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_4_su {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 95px;
+	top: 74px;
+}
+.n_41_sv_Class {
+	fill: transparent;
+	stroke: rgba(219,219,219,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_41_sv {
+	overflow: visible;
+	position: absolute;
+	width: 332px;
+	height: 2px;
+	left: 0px;
+	top: 110px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_3088_sw_Class {
+	position: absolute;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 443px;
+	overflow: visible;
+}
+.n_796_sx_Class {
+	fill: rgba(237,237,237,1);
+}
+.n_796_sx {
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+}
+.n_2_sy_Class {
+	position: absolute;
+	width: 73px;
+	height: 73px;
+	left: 39px;
+	top: 19px;
+	overflow: visible;
+}
+.Rebecca_Lucas_Class {
+	left: 142px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	height: 20px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(59,59,59,1);
+}
+.Phasellus_finibus_enim_nulla_q_Class {
+	left: 142px;
+	top: 55px;
+	position: absolute;
+	overflow: hidden;
+	width: 141px;
+	height: 25px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(59,59,59,1);
+}
+.n_4_s_Class {
+	fill: rgba(156,156,156,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_4_s {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 95px;
+	top: 74px;
+}
+.n_41_s_Class {
+	fill: transparent;
+	stroke: rgba(219,219,219,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_41_s {
+	overflow: visible;
+	position: absolute;
+	width: 332px;
+	height: 2px;
+	left: 0px;
+	top: 110px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_3088_s_Class {
+	position: absolute;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 554px;
+	overflow: visible;
+}
+.n_796_s_Class {
+	fill: rgba(237,237,237,1);
+}
+.n_796_s {
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+}
+.n_2_s_Class {
+	position: absolute;
+	width: 73px;
+	height: 73px;
+	left: 39px;
+	top: 19px;
+	overflow: visible;
+}
+.Beatrice_Wade_Class {
+	left: 142px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	height: 20px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(59,59,59,1);
+}
+.Vestibulum_commodo_sapien_non__Class {
+	left: 142px;
+	top: 55px;
+	position: absolute;
+	overflow: hidden;
+	width: 141px;
+	height: 25px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(59,59,59,1);
+}
+.n_4_ta_Class {
+	fill: rgba(51,149,55,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_4_ta {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 95px;
+	top: 74px;
+}
+.n_41_ta_Class {
+	fill: transparent;
+	stroke: rgba(219,219,219,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_41_ta {
+	overflow: visible;
+	position: absolute;
+	width: 332px;
+	height: 2px;
+	left: 0px;
+	top: 110px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_3088_ta_Class {
+	position: absolute;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 665px;
+	overflow: visible;
+}
+.n_796_tb_Class {
+	fill: rgba(237,237,237,1);
+}
+.n_796_tb {
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+}
+.n_2_tc_Class {
+	position: absolute;
+	width: 73px;
+	height: 73px;
+	left: 39px;
+	top: 19px;
+	overflow: visible;
+}
+.Rebecca_Matthews_Class {
+	left: 142px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	height: 20px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(59,59,59,1);
+}
+.Pellentesque_tincidunt_tristiq_Class {
+	left: 142px;
+	top: 55px;
+	position: absolute;
+	overflow: hidden;
+	width: 141px;
+	height: 25px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(59,59,59,1);
+}
+.n_4_tf_Class {
+	fill: rgba(156,156,156,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_4_tf {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 95px;
+	top: 74px;
+}
+.n_41_tg_Class {
+	fill: transparent;
+	stroke: rgba(219,219,219,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_41_tg {
+	overflow: visible;
+	position: absolute;
+	width: 332px;
+	height: 2px;
+	left: 0px;
+	top: 110px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_3088_th_Class {
+	position: absolute;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 776px;
+	overflow: visible;
+}
+.n_796_ti_Class {
+	fill: rgba(237,237,237,1);
+}
+.n_796_ti {
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	height: 110px;
+	left: 0px;
+	top: 0px;
+}
+.n_2_tj_Class {
+	position: absolute;
+	width: 73px;
+	height: 73px;
+	left: 39px;
+	top: 19px;
+	overflow: visible;
+}
+.Janice_Matthews_Class {
+	left: 142px;
+	top: 29px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	height: 20px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(59,59,59,1);
+}
+.Nunc_scelerisque_tincidunt_eli_Class {
+	left: 142px;
+	top: 55px;
+	position: absolute;
+	overflow: hidden;
+	width: 141px;
+	height: 25px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(59,59,59,1);
+}
+.n_4_tm_Class {
+	fill: rgba(156,156,156,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_4_tm {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 95px;
+	top: 74px;
+}
+.n_41_tn_Class {
+	fill: transparent;
+	stroke: rgba(219,219,219,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_41_tn {
+	overflow: visible;
+	position: absolute;
+	width: 332px;
+	height: 2px;
+	left: 0px;
+	top: 110px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_40_Class {
+	fill: transparent;
+	stroke: rgba(219,219,219,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_40 {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 599.5px;
+	left: 372.5px;
+	top: 123.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Francine_Andrews_tp_Class {
+	left: 433px;
+	top: 143px;
+	position: absolute;
+	overflow: visible;
+	width: 235px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(59,59,59,1);
+}
+.n_5_Class {
+	fill: rgba(51,149,55,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_5 {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 414px;
+	top: 157px;
+}
+.Last_seen_53_minutes_ago_Class {
+	left: 415px;
+	top: 187px;
+	position: absolute;
+	overflow: visible;
+	width: 168px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(59,59,59,1);
+}
+.n_42_Class {
+	fill: transparent;
+	stroke: rgba(219,219,219,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_42 {
+	overflow: visible;
+	position: absolute;
+	width: 954px;
+	height: 1px;
+	left: 373px;
+	top: 235px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_3090_Class {
+	position: absolute;
+	width: 873px;
+	height: 181px;
+	left: 414px;
+	top: 524px;
+	overflow: visible;
+}
+.n_797_Class {
+	fill: rgba(255,255,255,1);
+}
+.n_797 {
+	filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 933px;
+	height: 196px;
+	left: 0px;
+	top: 0px;
+}
+.Send_Class {
+	left: 800px;
+	top: 154px;
+	position: absolute;
+	overflow: visible;
+	width: 48px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(70,123,111,1);
+}
+.Icon_material-tag-faces_Class {
+	fill: rgba(47,107,94,1);
+}
+.Icon_material-tag-faces {
+	overflow: visible;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	left: 17.5px;
+	top: 157px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Icon_metro-attachment_Class {
+	fill: rgba(70,123,111,1);
+}
+.Icon_metro-attachment {
+	overflow: visible;
+	position: absolute;
+	width: 21px;
+	height: 24px;
+	left: 54.859px;
+	top: 157px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_798_Class {
+	fill: transparent;
+}
+.n_798 {
+	position: absolute;
+	overflow: visible;
+	width: 955px;
+	height: 598px;
+	left: 372px;
+	top: 124px;
+}
+.n_2_tz_Class {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 873px;
+	height: 236px;
+	left: 414px;
+	top: 257px;
+	overflow: hidden;
+}
+.n_2_t_Class {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 0px;
+	top: 11px;
+	overflow: visible;
+}
+.Francine_Andrews_t_Class {
+	left: 66px;
+	top: 10px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	height: 20px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(59,59,59,1);
+}
+.Etiam_facilisis_ligula_nec_vel_Class {
+	left: 66px;
+	top: 35px;
+	position: absolute;
+	overflow: hidden;
+	width: 767px;
+	height: 47px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(59,59,59,1);
+}
+.n_799_Class {
+	fill: transparent;
+}
+.n_799 {
+	position: absolute;
+	overflow: visible;
+	width: 872px;
+	height: 72px;
+	left: 0px;
+	top: 0px;
+}
+.n_2_ua_Class {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 0px;
+	top: 170px;
+	overflow: visible;
+}
+.Francine_Andrews_ua_Class {
+	left: 66px;
+	top: 169px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	height: 20px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(59,59,59,1);
+}
+.Etiam_facilisis_ligula_nec_vel_t_Class {
+	left: 66px;
+	top: 194px;
+	position: absolute;
+	overflow: visible;
+	width: 767px;
+	height: 37px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(59,59,59,1);
+}
+.n_799_t_Class {
+	fill: transparent;
+}
+.n_799_t {
+	position: absolute;
+	overflow: visible;
+	width: 872px;
+	height: 72px;
+	left: 0px;
+	top: 149px;
+}
+.Icon_awesome-user-circle_t_Class {
+	fill: rgba(47,107,94,1);
+}
+.Icon_awesome-user-circle_t {
+	overflow: visible;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 0px;
+	top: 91px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Me_Class {
+	left: 66px;
+	top: 91px;
+	position: absolute;
+	overflow: visible;
+	width: 141px;
+	height: 20px;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(59,59,59,1);
+}
+.Etiam_facilisis_ligula_nec_vel_ua_Class {
+	left: 66px;
+	top: 116px;
+	position: absolute;
+	overflow: visible;
+	width: 767px;
+	height: 33px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(59,59,59,1);
+}
+.n_800_Class {
+	fill: transparent;
+}
+.n_800 {
+	position: absolute;
+	overflow: visible;
+	width: 872px;
+	height: 67px;
+	left: 0px;
+	top: 82px;
+}

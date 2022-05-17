@@ -1,0 +1,570 @@
+
+.mediaViewInfo {
+	--web-view-name: Orders;
+	--web-view-id: Orders;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Orders;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.Orders_Class {
+	position: absolute;
+	width: 1366px;
+	height: auto;
+	padding-bottom:10cm;
+	background-color: rgba(241,241,241,1);
+	--web-view-name: Orders;
+	--web-view-id: Orders;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes  {
+
+
+}
+.Top_bar_Class {
+	position: absolute;
+	width: 1366px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Top_bar_o_Class {
+	mix-blend-mode: normal;
+	position: absolute;
+	width: 1366px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.n_2_Class {
+	fill: rgba(47,107,94,1);
+}
+.n_2 {
+	filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.302));
+	position: absolute;
+	overflow: visible;
+	width: 1396px;
+	height: 115px;
+	left: 0px;
+	top: 0px;
+}
+.n_3062_Class {
+	position: absolute;
+	width: 1286px;
+	height: 43px;
+	left: 32px;
+	top: 23px;
+	overflow: visible;
+}
+.Navigator_Class {
+	position: absolute;
+	width: 323.433px;
+	height: 38.816px;
+	left: 962.567px;
+	top: 2px;
+	overflow: visible;
+}
+.Messages_Class {
+	left: 0px;
+	top: 5.908px;
+	position: absolute;
+	overflow: visible;
+	width: 91px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Message.php;
+	cursor: pointer;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Orders_t_Class {
+	left: 190px;
+	top: 5.908px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Cart_Class {
+	left: 120px;
+	top: 5.908px;
+	position: absolute;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Cart.php;
+	cursor: pointer;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+.Icon_awesome-user-circle_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_awesome-user-circle {
+	overflow: visible;
+	position: absolute;
+	width: 38.816px;
+	height: 38.816px;
+	left: 284.618px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.6000000238418579s ease-out;
+	--web-action-type: page;
+	--web-action-target: Profile.php;
+	cursor: pointer;
+}
+.Logo_Class {
+	position: absolute;
+	width: 264px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Homepage.php;
+}
+.Logo-Text_Class {
+	position: absolute;
+	width: 264px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.LOZA_Class {
+	left: 52px;
+	top: 5px;
+	position: absolute;
+	overflow: visible;
+	width: 213px;
+	height: 33px;
+	text-align: left;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+}
+.Logo_z_Class {
+	position: absolute;
+	width: 43px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Container_Class {
+	fill: rgba(47,107,94,1);
+}
+.Container {
+	position: absolute;
+	overflow: visible;
+	width: 43px;
+	height: 43px;
+	left: 0px;
+	top: 0px;
+}
+.Icon_ionic-md-globe_Class {
+	fill: rgba(255,255,255,1);
+}
+.Icon_ionic-md-globe {
+	overflow: visible;
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	left: 4px;
+	top: 4.483px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Search_Class {
+	position: absolute;
+	width: 526px;
+	height: 36px;
+	left: 286px;
+	top: 4px;
+	overflow: visible;
+	--web-animation: fadein 0.6000000238418579s ease-out;
+	--web-action-type: page;
+	--web-action-target: Search_Page.php;
+	cursor: pointer;
+}
+.n_2878_Class {
+	fill: rgba(241,241,241,1);
+}
+.n_2878 {
+	overflow: visible;
+	position: absolute;
+	width: 526px;
+	height: 36px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_3065_Class {
+	position: absolute;
+	width: 426.551px;
+	height: 24.128px;
+	left: 17.682px;
+	top: 6px;
+	overflow: visible;
+}
+.Find_Services_Class {
+	left: 36.551px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 391px;
+	height: 24.128271102905273px;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(156,156,156,1);
+}
+.Icon_ionic-ios-search_Class {
+	fill: rgba(156,156,156,1);
+}
+.Icon_ionic-ios-search {
+	overflow: visible;
+	position: absolute;
+	width: 18.241px;
+	height: 18.245px;
+	left: 0px;
+	top: 3px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.n_38_Class {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_38 {
+	display: none;
+	overflow: visible;
+	position: absolute;
+	width: 1366px;
+	height: 1px;
+	left: -8px;
+	top: 96.465px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Manage_Orders_Class {
+	left: 41px;
+	top: 125px;
+	position: absolute;
+	overflow: visible;
+	width: 290px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Proxima Nova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(53,78,87,1);
+}
+.n_3204_Class {
+	position: absolute;
+	width: 1282.5px;
+	height: 29.5px;
+	left: 42.5px;
+	top: 222px;
+	overflow: visible;
+}
+.n_45_Class {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.n_45 {
+	overflow: visible;
+	position: absolute;
+	width: 1282.5px;
+	height: 1px;
+	left: 0px;
+	top: 29.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.ALL_Class {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	--web-animation: fadein 0.6000000238418579s ease-out;
+	--web-action-type: page;
+	--web-action-target: Orders.php;
+	width: 30px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(59,59,59,1);
+}
+.COMPLETED_Class {
+	left: 51px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	--web-animation: fadein 0.6000000238418579s ease-out;
+	--web-action-type: page;
+	--web-action-target: Orders_Completed.php;
+	width: 98px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(127,127,127,1);
+}
+.ONGOING_Class {
+	left: 169px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	--web-animation: fadein 0.6000000238418579s ease-out;
+	--web-action-type: page;
+	--web-action-target: Orders_Ongoing.php;
+	width: 82px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(127,127,127,1);
+}
+.n_808_Class {
+	fill: rgba(255,255,255,1);
+	position: relative;
+}
+.n_808 {
+	filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.161));
+	position: relative;
+	overflow: visible;
+	width: 1314px;
+	height: 60px;
+	left: 41px;
+	top: 300px;
+}
+.edit_your_college_application_Class {
+	left: 264px;
+	top: 290px;
+	position: relative;
+	overflow: visible;
+	width: 286px;
+	height: 15px;
+	white-space: nowrap;
+	line-height: 47px;
+	margin-top: -12.5px;
+	text-align: left;
+	font-family: HarmonyOS Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	color: rgba(59,59,59,1);
+}
+.n_3_Class {
+	position: relative;
+	width: 154px;
+	height: 90px;
+	left: 68px;
+	top: 260px;
+	overflow: visible;
+}
+.ORDER_DATE_Class {
+	left: 838px;
+	top: 260px;
+	position: absolute;
+	overflow: visible;
+	width: 104px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(112,112,112,1);
+}
+.DUE_ON_Class {
+	left: 995px;
+	top: 260px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(127,127,127,1);
+}
+.TOTAL_Class {
+	left: 1115px;
+	top: 260px;
+	position: absolute;
+	overflow: visible;
+	width: 51px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(127,127,127,1);
+}
+.STATUS_Class {
+	left: 1219px;
+	top: 260px;
+	position: absolute;
+	overflow: visible;
+	width: 60px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(127,127,127,1);
+}
+.n_0_Nov_2021_Class {
+	left: 839px;
+	top: 195px;
+	position: relative;
+	overflow: visible;
+	width: 102px;
+	height: 10px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(127,127,127,1);
+}
+.n_3_Nov_2021_Class {
+	left: 978px;
+	top: 195px;
+	position: relative;
+	overflow: visible;
+	width: 102px;
+	height: 10px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(127,127,127,1);
+}
+.Order_Again_Class {
+	left: 1201px;
+	top: 195px;
+	position: relative;
+	overflow: visible;
+	width: 104px;
+	height: 10px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(47,107,94,1);
+}
+.n_0000_Class {
+	left: 1110px;
+	top: 195px;
+	position: relative;
+	overflow: visible;
+	width: 71px;
+	height: 10px;
+	white-space: nowrap;
+	line-height: 40px;
+	margin-top: -11px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(127,127,127,1);
+}
